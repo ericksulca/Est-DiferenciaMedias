@@ -1,10 +1,14 @@
 ---
 title: "Trabajo_Final_RM"
-author: "Rodríguez Muñoz, Yasser ali"
+author: "Erick Sulca - Yasser Rodríguez"
 date: '2022-07-14'
-output:
-  word_document: default
-  pdf_document: default
+output: 
+  html_document:
+    includes:
+      in_header: head.html
+      before_body: before.html
+      after_body: footer.html
+
 ---
 
 # ERROR ESTÁNDAR
