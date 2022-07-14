@@ -1,0 +1,74 @@
+---
+title: "Trabajo_Final_RM"
+author: "Rodríguez Muñoz, Yasser ali"
+date: '2022-07-14'
+output:
+  word_document: default
+  pdf_document: default
+---
+
+# ERROR ESTÁNDAR
+
+El error estándar es la desviación estándar de la distribución muestral de un estadístico muestral. El término se refiere también a una estimación de la desviación estándar, derivada de una muestra particular usada para computar la estimación
+
+La media muestral es el estimador usual de una media poblacional. Sin embargo, diferentes muestras escogidas de la misma población tienden en general a dar distintos valores de medias muestrales. El error estándar de la media (es decir, el error debido a la estimación de la media poblacional a partir de las medias muestrales) es la desviación estándar de todas las posibles muestras (de un tamaño dado) escogidos de esa población. Además, el error estándar de la media puede referirse a una estimación de la desviación estándar, calculada desde una muestra de datos que está siendo analizada al mismo tiempo.
+
+
+En aplicaciones prácticas, el verdadero valor de la desviación estándar (o del error) es generalmente desconocido. Como resultado, el término "error estándar" se usa a veces para referirse a una estimación de esta cantidad desconocida. En tales casos es importante tener claro de dónde proviene, ya que el error estándar es solo una estimación. Desafortunadamente, esto no es siempre posible y puede ser mejor usar una aproximación que evite usar el error estándar, por ejemplo usando la estimación de máxima verosimilitud o una aproximación más formal derivada de los intervalos de confianza. Un caso bien conocido donde se pueda usar de forma apropiada puede ser en la distribución de Student para proporcionar un intervalo de confianza para una media estimada o diferencia de medias. En otros casos, el error estándar puede ser usado para proveer una indicación del tamaño de la incertidumbre, pero su uso formal o semi-formal para proporcionar intervalos de confianza o test debe ser evitado a menos que el tamaño de la muestra sea al menos moderadamente grande. Aquí el concepto "grande" dependerá de las cantidades particulares que vayan a ser analizadas.
+
+
+#### ¿Qué es el error estándar y cómo se calcula?
+
+El error estándar indica la propagación de las mediciones dentro de una muestra de datos. Es la desviación estándar dividida por la raíz cuadrada del tamaño de la muestra de datos. La muestra puede incluir datos de las mediciones científicas, resultados de exámenes, las temperaturas o una serie de números al azar.
+
+
+## ERROR ESTANDAR DE LA MEDIA
+
+#### ¿Cómo se determina el error estándar de la media?
+
+Como la desviación estándar de la población rara vez se conoce, el error estándar de la media suele estimarse como la desviación estándar de la muestra dividida por la raíz cuadrada del tamaño de la muestra (suponiendo la independencia estadística de los valores de la muestra).
+
+
+####¿Cuándo usar error estándar y desviación estándar?
+Si simplemente estamos interesados en medir qué tan dispersos están los valores en un conjunto de datos, podemos usar la desviación estándar . Sin embargo, si estamos interesados en cuantificar la incertidumbre en torno a una estimación de la media, podemos usar el error estándar de la media .
+
+
+## POBLACIÓN 
+
+El error estándar de la media (SEM, en notación en inglés, por standard error of the mean) puede ser expresado como:
+
+σ = σ/(n)^0.5
+
+donde:
+
+σ : es la desviación estándar de la población y
+
+n : es el tamaño (número de observaciones) de la muestra.
+
+## ESTIMACIÓN
+
+Como la desviación estándar de la población rara vez se conoce, el error estándar de la media suele estimarse como la desviación estándar de la muestra dividida por la raíz cuadrada del tamaño de la muestra (suponiendo la independencia estadística de los valores de la muestra).
+
+σ = S/(n)^0.5
+
+donde:
+
+s: es la desviación estándar de la muestra (i.e., la estimación de la desviación estándar de la población basada en la muestra), y
+
+n: es el tamaño (número de observaciones) de la muestra.
+
+
+# DIFERENCIA DE MEDIAS POBLACIONALES
+
+En ocasiones interesa definir un intervalo de valores tal que permita establecer cuales son los valores mínimo y máximo aceptables para la diferencia entre las medias de dos poblaciones. Pueden darse dos situaciones según las muestras sean o no independientes; siendo en ambos casos condición necesaria que las poblaciones de origen sean normales o aproximadamente normales:
+
+### MUESTRAS INDEPENDIENTES
+
+Si puede suponerse que las varianzas de ambas poblaciones son iguales, el intervalo de confianza para la diferencia de medias poblacionales está centrado en la diferencia de las medias muestrales, siendo sus límites superior e inferior:
+
+### MUESTRAS DEPENDIENTES. 
+
+En este caso las muestras están formadas por parejas de valores, uno de cada población y el estadístico se obtiene a partir de las diferencias de los valores de las dos variables correspondientes a cada caso o di que se define como di= xi-yi.
+
+
+#EJEMPLOS
